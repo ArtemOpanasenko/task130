@@ -19,7 +19,7 @@ namespace Task130
         public void Test1()
         {
             driver.Navigate().GoToUrl("https://www.google.com/");
-            driver.FindElement(By.Name("q"));
+            driver.FindElement(By.Name("qbc"));
         }
 
         [TearDown]
